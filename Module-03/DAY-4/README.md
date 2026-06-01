@@ -15,27 +15,33 @@ To create a java program using StringTokenizer class that tokenizes a string "My
 6.	End
 
 
-
-
 ## PROGRAM:
  ```
 /*
 Program to implement a String Tokenizer using Java
-Developed by: 
-RegisterNumber:  
+Developed by: Harini.S
+RegisterNumber:  212223040058
 */
 ```
 
 ## Sourcecode.java:
 
+```
 
-
-
-
-
+import java.util.StringTokenizer;  
+public class Demo{  
+ public static void main(String args[]){  
+   StringTokenizer st = new StringTokenizer("My name is Java Programming"," ");  
+     while (st.hasMoreTokens()) {  
+         System.out.println(st.nextToken());  
+     }  
+   }  
+}
+```
 
 ## OUTPUT:
 
+<img width="1053" height="349" alt="image" src="https://github.com/user-attachments/assets/d558735a-c6d0-4041-83ab-a04b4ff2c81e" />
 
 
 ## RESULT:
