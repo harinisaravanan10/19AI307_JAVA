@@ -26,21 +26,41 @@ To write a parameterized constructor in the Employee class that initializes name
  ```
 /*
 Program to implement a Parameterized Constructor Using Java
-Developed by: 
-RegisterNumber:  
+Developed by: Harini S
+RegisterNumber: 212223040058
 */
 ```
 
 ## Sourcecode.java:
 
-
-
-
-
-
+```
+class Student {
+String name;
+String dept;
+Student(String n,String d)
+{
+    this.name=n;
+    this.dept=d;
+}
+public void getName(){
+    System.out.println(name);
+}
+public void getDept(){
+    System.out.println(dept);
+}
+}
+public class Sample{
+    public static void main(String[] args){
+        Student obj=new Student("Antony","AIML");
+        obj.getName();
+        obj.getDept();
+    }
+}
+```
 
 ## OUTPUT:
 
+<img width="1041" height="341" alt="image" src="https://github.com/user-attachments/assets/0a643142-f359-4123-b537-149b2953a9e5" />
 
 
 ## RESULT:
