@@ -21,21 +21,43 @@ b.	Create an object of ArrayOperation and call findMax() by passing the ArrayDat
  ```
 /*
 Program to implement a HAS-A RelationShip
-Developed by: 
-RegisterNumber:  
+Developed by: Harini S
+RegisterNumber: 212223040058
 */
 ```
 
 ## Sourcecode.java:
 
-
-
-
-
-
+```
+import java.util.Scanner;
+class fun{
+    public static boolean isPal(String s)
+    {   
+        if(s.length() == 0 || s.length() == 1)
+            return true; 
+        if(s.charAt(0) == s.charAt(s.length()-1))
+        
+        return isPal(s.substring(1, s.length()-1));
+        return false;
+    }
+}
+public class ArrayProgram {
+    public static void main(String[] args)
+    {
+        Scanner scanner = new Scanner(System.in);
+        String string = scanner.nextLine();
+        fun obj=new fun();
+        if(obj.isPal(string))
+            System.out.println(string + " is a palindrome");
+        else
+            System.out.println(string + " is not a palindrome");
+    }
+}
+```
 
 ## OUTPUT:
 
+<img width="1071" height="345" alt="image" src="https://github.com/user-attachments/assets/4e560cb1-9147-4fed-b12e-4510f0e8478b" />
 
 
 ## RESULT:
