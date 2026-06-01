@@ -17,30 +17,38 @@ a)	Create an instance of the `addition` class called `ad`
 b)	Call the `display(8, 9)` method on the `ad` object
 7.	End
 
-
-
-
-
-
 ## PROGRAM:
  ```
 /*
 Program to implement a access modifiers using Java
-Developed by: 
-RegisterNumber:  
+Developed by: Harini.S
+RegisterNumber: 212223040058
 */
 ```
 
 ## Sourcecode.java:
 
-
-
-
-
-
+```
+public class A
+{ 
+    private void display() 
+    { 
+        int a=8,b=9;
+        System.out.println(a+b); 
+    }
+    public static void main(String args[])
+    {
+        A obj= new A();
+        obj.display();
+    }
+}
+```
 
 ## OUTPUT:
 
+Expected    Got 
+
+17          17
 
 
 ## RESULT:
