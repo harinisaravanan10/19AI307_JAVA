@@ -59,6 +59,11 @@ public static void main(String args[]){
 
 ## OUTPUT:
 
+| Input  | Expected | Got    |
+| ------ | -------- | ------ |
+| 111    | 111      | 111    |
+| 456789 | 456789   | 456789 |
+| 12     | 12       | 12     |
 
 
 ## RESULT:
