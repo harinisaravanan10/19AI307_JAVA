@@ -16,27 +16,49 @@ To create a java program that returns the sum of all the values in a 2D array.
 7.	Print "The sum of all values in the 2D array is: " + `sum`
 8.	End
 
-
-
 ## PROGRAM:
  ```
 /*
 Program to implement a Multi Dimensional Array using Java
-Developed by: 
-RegisterNumber:  
+Developed by: Harini.S
+RegisterNumber:  212223040058
 */
 ```
 
 ## Sourcecode.java:
 
+```
+import java.util.Scanner;
 
+public class LargestElement {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
 
+        int size = scanner.nextInt();
+        int[] array = new int[size];
 
+        for (int i = 0; i < size; i++) {
+            array[i] = scanner.nextInt();
+        }
 
+        int largest = array[0]; // Assume the first element is the largest initially
 
+        for (int i = 1; i < size; i++) {
+            if (array[i] > largest) {
+                largest = array[i];
+            }
+        }
+
+        System.out.println("The largest element in the array is: " + largest);
+
+        scanner.close();
+    }
+}
+```
 
 ## OUTPUT:
 
+<img width="1522" height="634" alt="image" src="https://github.com/user-attachments/assets/d6324ce0-29a9-4f2e-9899-92f4c00c1ee7" />
 
 
 ## RESULT:
