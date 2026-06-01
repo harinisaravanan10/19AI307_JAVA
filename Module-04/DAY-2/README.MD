@@ -19,13 +19,6 @@ To create  a Java program to perform the inheritance concept for employee detail
 -	c) Call `display()` to output employee details
 5.	End
 
-
-
-
-
-
-
-
 ## PROGRAM:
  ```
 /*
@@ -72,6 +65,10 @@ public class Main
 
 ## OUTPUT:
 
+| Input              | Expected                                      | Got                        |
+| ------------------ | --------------------------------------------- | -------------------------- |
+| 51<br>Accounts     | Emp_ID: 51 Department: Accounts Salary: 35000 | Emp_ID: 51 Department: ... |
+| 61<br>Front Office | Emp_ID: 61 Department: Front Salary: 35000    | Emp_ID: 61 Department: ... |
 
 
 ## RESULT:
