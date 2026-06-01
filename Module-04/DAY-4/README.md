@@ -20,30 +20,53 @@
 -	b) Call `emp.disp(101)` to display the employee details
 5.	End
 
-
-
-
-
-
 ## PROGRAM:
  ```
 /*
 Program to implement a final & Static using Java
-Developed by: 
-RegisterNumber:  
+Developed by: Harini S
+RegisterNumber: 212223040058
 */
 ```
 
 ## Sourcecode.java:
 
+```
+final class Student {
+    String Name;
+    String Id;
+    final String Year = "3th Year"; // Final variable with a fixed value
 
+    // Constructor to initialize Name and Id
+    Student(String Name, String Id) {
+        this.Name = Name;
+        this.Id = Id;
+    }
 
+    // Method to display the details
+    void print() {
+        System.out.println("Student Details are,");
+        System.out.println("Id is " + Id);
+        System.out.println("Name is " + Name);
+        System.out.println("Year of Studying is " + Year);
+    }
+}
 
+// Main class to test the functionality
+public class Main {
+    public static void main(String[] args) {
+        // Create an instance of Student class with given Name and Id
+        Student student = new Student("David", "S201");
 
-
+        // Call the print method to display the details
+        student.print();
+    }
+}
+```
 
 ## OUTPUT:
 
+<img width="1116" height="417" alt="image" src="https://github.com/user-attachments/assets/f8ef5c4c-be91-4a5d-bdaa-a31b986e2f85" />
 
 
 ## RESULT:
