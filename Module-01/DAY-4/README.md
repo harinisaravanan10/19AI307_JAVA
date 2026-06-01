@@ -17,28 +17,38 @@ d)	Print the calculated area using the System.out.println statement
 a)	Create an instance of the 'Area' class called 'rectangle'
 b)	Call the 'calculateArea' method on the 'rectangle' object
 
-
-
-
 ## PROGRAM:
  ```
 /*
 Program to implement a User Defined Method using Java
-Developed by: 
-RegisterNumber:  
+Developed by: Harini.S
+RegisterNumber:  212223040058
 */
 ```
 
 ## Sourcecode.java:
 
-
-
-
-
-
-
+```
+import java.util.*;
+public class Area {
+        double calculateArea()
+    {
+        double radius,cirarea;
+        Scanner sc=new Scanner(System.in);
+        radius=sc.nextDouble();
+        cirarea=3.14*radius*radius;
+        return cirarea;
+    }
+        public static void main(String[] args) {
+       Area obj=new Area();
+       double area=obj.calculateArea();
+       System.out.println("Area of Circle is "+area);
+    }
+}
+```
 ## OUTPUT:
 
+<img width="667" height="269" alt="image" src="https://github.com/user-attachments/assets/efe2013a-ca15-4837-a46b-95ceda941bed" />
 
 
 ## RESULT:
