@@ -18,29 +18,46 @@ To Create a java program to display name and location of the employee and use th
 -	e) Print the values of `hl.get1()` and `hl.get2()`
 4.	End
 
-
-
-
-
 ## PROGRAM:
  ```
 /*
 Program to implement a Data Hiding & Encapsulation using Java
-Developed by: 
-RegisterNumber:  
+Developed by: Harini S
+RegisterNumber: 212223040058
 */
 ```
 
 ## Sourcecode.java:
 
+```
+import java.util.*;
+public class java{
+    private long a;
+    void set(long x)
+    {
+        this.a=x;
+    }
+    void get()
+    {
+        System.out.println(this.a);
+    }
 
-
-
-
-
+public static void main(String[] args)
+{
+    java j=new java();
+    Scanner s=new Scanner(System.in);
+    long l=s.nextLong();
+    j.set(l);
+    j.get();
+    
+    
+}
+}
+```
 
 ## OUTPUT:
 
+<img width="1075" height="342" alt="image" src="https://github.com/user-attachments/assets/1fe88aef-71c2-4f73-b369-cfc9f05ac682" />
 
 
 ## RESULT:
